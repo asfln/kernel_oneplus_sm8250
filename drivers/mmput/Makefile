@@ -1,1 +1,1 @@
-obj-y  =+ mmput.c
+obj-y  += mmput.c
