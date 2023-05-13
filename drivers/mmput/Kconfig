@@ -1,5 +1,0 @@
-config mmput
-    tristate "mmput"
-    default y
-    help
-    a test driver
