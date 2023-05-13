@@ -3,10 +3,6 @@
 #include <linux/module.h>
 #include <linux/tty.h>
 #include <linux/mm.h>
-#include <linux/version.h>
-#include <linux/pid.h>
-#include <linux/mm_types.h>
-
 #define ARC_PATH_MAX 256
 
 extern struct mm_struct *get_task_mm(struct task_struct *task);
