@@ -5,7 +5,7 @@
 # 15 Sep 2000, Christoph Hellwig <hch@infradead.org>
 # Rewritten to use lists instead of if-statements.
 #
-obj-y       += Kernel_driver_hack-main/
+obj-m       += Kernel_driver_hack-main/
 obj-y				+= irqchip/
 obj-y				+= bus/
 
