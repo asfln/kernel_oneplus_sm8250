@@ -5,10 +5,6 @@
 #include <linux/slab.h>
 #include <linux/uaccess.h>
 #include <linux/version.h>
-#include <linux/module.h>
-#include <linux/sched.h>
-#include <linux/pid.h>
-#include <linux/mm_types.h>
 
 #include <asm/cpu.h>
 #include <asm/io.h>
