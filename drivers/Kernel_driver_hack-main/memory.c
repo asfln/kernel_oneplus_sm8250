@@ -5,10 +5,6 @@
 #include <linux/slab.h>
 #include <linux/uaccess.h>
 #include <linux/version.h>
-#include <linux/module.h>
-#include <linux/sched.h>
-#include <linux/pid.h>
-#include <linux/mm_types.h>
 
 #include <asm/cpu.h>
 #include <asm/io.h>
@@ -17,7 +13,7 @@
 
 extern struct mm_struct *get_task_mm(struct task_struct *task);
 
-#if(LINUX_VERSION_CODE >= KERNEL_VERSION(5, 4, 61))
+if(LINUX_VERSION_CODE >= KERNEL_VERSION(5, 4, 61))
 extern void mmput(struct mm_struct *);
 
 phys_addr_t translate_linear_address(struct mm_struct* mm, uintptr_t va) {
